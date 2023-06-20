@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url(SIN0I9A3279_TP_V.jpg);
+  background-color: rgba(0,0,0,0.4) no-repeat fixed center;
+  background-blend-mode: multiply;
+  background-size: 1440px auto;
+  background-position: center;
+  padding: 16px 0 0;
+  height: 720px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  font-size: 32px;
+  margin-left: 32px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+ul a {
+  font-size: 20px;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+li {
+  list-style: none;
+  margin-right: 32px;
+}
+
+h1 {
+  margin-top: 280px;
+  font-size: 88px;
+  text-align: center;
+  color: #fff;
+  opacity: 0.7;
+}
